@@ -1,0 +1,125 @@
+﻿/*----------------------------------------------------------
+The base color for this template is #5c87b2. If you'd like
+to use a different color start by replacing all instances of
+#5c87b2 with your new color.
+----------------------------------------------------------*/
+body
+{
+    background-color: #eeeeee;
+    font-size: 13px;
+    font-family:"Lucida Grande",Arial,Sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #777777;
+}
+
+a:link, a:visited
+{
+    color: #2277BB;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 780px;
+}
+
+#header
+{
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;
+	background-color: #FFFFFF;
+	position:relative;	
+	padding: 20px;
+	margin-top: 40px;
+	overflow:auto;
+}
+
+#content
+{
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:10px;
+	background-color: #FFFFFF;
+	position:relative;	
+	padding: 20px;
+	overflow:auto;
+}
+
+#logo
+{
+	width: 543px;
+	float: left;
+}
+
+#auth
+{
+	width: 175px;
+	float: right;
+	text-align: right;
+}
+
+a.signin-button:action
+{
+	background-image:none;
+}
+
+a.signin-button:hover, a.signin-button:focus
+{
+	background-position:0 -5px;
+	color:#111111;
+}
+
+a.signin-button
+{
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-x-system-font:none;
+	background:#99CC22 url(bg-btn.png) repeat-x scroll 0 0;
+	border:1px solid #DDFF66;
+	color:#333333;
+	display:block;
+	font-family:Helvetica,Arial,Sans-serif;
+	font-size:18px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:normal;
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:medium;
+	padding:8px 10px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0 1px 0 #DDFF66;
+}
+
+#howto h1
+{
+	margin-bottom: 20px;
+	font-weight: normal;
+	font-size: 20px;	
+}
+
+#howto img
+{
+	vertical-align:text-bottom;
+}
